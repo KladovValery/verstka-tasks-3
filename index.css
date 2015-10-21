@@ -1,0 +1,26 @@
+.selector {
+    color: <цвет>; /* Цвет текста */
+    background: <цвет>; /* Цвет подложки */
+    display: none; /* Элемент (например, строка таблицы) не будет отображаться */
+    display: table-row; /* Обратно отобразить строку таблицы */
+}
+table,
+tr,
+th,
+td{
+    border: 1px solid black;
+}
+tr:nth-child(2n+1){
+    background: grey;
+}
+.first
+{
+    background-color: grey;
+}
+
+tr:hover
+{
+    padding: 20px;
+    background-color: red !important;
+    color: white;
+}
