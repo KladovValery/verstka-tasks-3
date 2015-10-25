@@ -39,3 +39,19 @@ tr:nth-child(even)
 {
     background-color: #b5b5b5
 }
+button
+{
+    display: none;
+}
+input[name="email"]:valid ~ input[name="phone"]:valid ~ button
+{
+    display: block;
+}
+input:valid
+{
+    background-color: #3ef20c;
+}
+input:invalid
+{
+    background-color: #000;
+}
