@@ -3,27 +3,32 @@ th
     color: white;
     background-color: #9c9c9c;
 }
+
 table 
 {
     border-spacing: 0;
     overflow: hidden;
 }
+
 .first
 {
     background-color: #b5b5b5;
 }
+
 tr > td 
 {
     padding: 10px;
     font-size: 15px;
     position: relative;
 }
+
 table > tbody > tr:hover 
 {
     padding: 20px;
     background-color: #ff4500 !important;
     color: white;
 }
+
 td:hover:after
 {
     content: "";
@@ -35,23 +40,28 @@ td:hover:after
     width: 100%;
     z-index: -1;
 }
+
 tr:nth-child(even)
 {
     background-color: #b5b5b5
 }
+
 button
 {
     display: none;
 }
+
 input[name="email"]:valid ~ input[name="phone"]:valid ~ button
 {
     display: block;
 }
+
 input:valid
 {
     background-color: #3ef20c;
 }
+
 input:invalid
 {
-    background-color: #000;
+    background-color: #ffdead;
 }
